@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+*{
+    margin:0px;
+}
+/* for navbar */
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+    font-size: 29px;
+    margin-right: 40px;
+
+}
+#logo img{
+    height: inherit;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(188, 3, 3);
+    padding: 0px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+ul{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    
+
+}
+li{
+    list-style: none;
+    padding: 10px 15px;
+    margin: 0px 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+a:hover{
+    color: darkblue;
+}
+/* intro section */
+#introSection{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size:3rem ;
+    font-family: 'Libre Baskerville', serif;
+
+}
+#introSection div{
+     margin-bottom: 10px;
+}
+
+#introSection::before{
+    content: "";
+    position: absolute;
+    background:url(../static/bg.jpg) center center no-repeat;
+    top: 67.5px;
+    bottom: 0px;
+    height: 410px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+.small{
+    font-size: 2rem;
+}
+/* for mission section */
+#ourMission{
+    height: 300px;
+    padding-top: 10px;
+}
+#card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#card-content h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+.card-box{
+    display: flex;
+
+}
+.card-img{
+    height: 115px;
+    margin: 0 10px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+
+/* sponsers section */
+#sponsersSection{
+    height: 300px;
+    background-color: blanchedalmond;
+
+}
+#sponsersSection h2 {
+    padding: 20px;
+    margin-bottom: 42px;}
+#sponsers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.spImage{
+    height: 100px;
+    margin: 0px 36px
+}
+/* footer */
+#footer{
+    height: 50px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 3rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+
+}
+
+/* special */
+.heading{
+    font-weight: bold;
+    margin: 10px;
+    margin-bottom: 20px;
+
+}
